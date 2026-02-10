@@ -1,1 +1,1 @@
-# ABPJ2-Jogos-logicos
+# ABPJ2-JOGO-LOGICO
