@@ -38,6 +38,9 @@
         <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-10" parent="1" style="whiteSpace=wrap;html=1;" value="Informa Resposta Incorreta" vertex="1">
           <mxGeometry height="60" width="120" x="470" y="370" as="geometry" />
         </mxCell>
+        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-2" edge="1" parent="1" source="XQxMHSmqgJ_7HpdLOQ4S-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_Fd-BaGg3FTUe1XzLkGT-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Deseja tentar novamente" vertex="1">
           <mxGeometry height="80" width="80" x="610" y="360" as="geometry" />
         </mxCell>
@@ -64,6 +67,9 @@
         </mxCell>
         <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Informar a quantidade de vidas que possui (2)" vertex="1">
           <mxGeometry height="60" width="120" x="580" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-1" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
