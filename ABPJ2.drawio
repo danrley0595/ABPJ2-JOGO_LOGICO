@@ -26,11 +26,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Verifica se resposta está correta" vertex="1">
+        <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="Verifica se resposta está correta" vertex="1">
           <mxGeometry height="80" width="80" x="100" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-7" edge="1" parent="1" source="XQxMHSmqgJ_7HpdLOQ4S-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_Fd-BaGg3FTUe1XzLkGT-6" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-7" edge="1" parent="1" source="XQxMHSmqgJ_7HpdLOQ4S-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Informa resposta Correta" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="470" as="geometry" />
@@ -62,10 +64,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Verifica &quot;Deseja tentar novamente&quot;" vertex="1">
+        <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="Verifica &quot;Deseja tentar novamente&quot;" vertex="1">
           <mxGeometry height="80" width="80" x="710" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-14" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="Fim" vertex="1">
+        <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-14" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" value="Fim" vertex="1">
           <mxGeometry height="50" width="120" x="300" y="950" as="geometry" />
         </mxCell>
         <mxCell id="XQxMHSmqgJ_7HpdLOQ4S-23" edge="1" parent="1" source="XQxMHSmqgJ_7HpdLOQ4S-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XQxMHSmqgJ_7HpdLOQ4S-4" value="">
@@ -98,11 +100,10 @@
         <mxCell id="_Fd-BaGg3FTUe1XzLkGT-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Verifica quantidade de vidas e diminui a cada tentativa" vertex="1">
           <mxGeometry height="50" width="120" x="690" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-15" edge="1" parent="1" source="_Fd-BaGg3FTUe1XzLkGT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_Fd-BaGg3FTUe1XzLkGT-14" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Adiciona pontos" vertex="1">
-          <mxGeometry height="60" width="120" x="80" y="560" as="geometry" />
+        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_Fd-BaGg3FTUe1XzLkGT-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="620" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_Fd-BaGg3FTUe1XzLkGT-13" edge="1" parent="1" source="_Fd-BaGg3FTUe1XzLkGT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XQxMHSmqgJ_7HpdLOQ4S-14" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -136,7 +137,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Verifica resposta &quot;Deseja continuar&quot;" vertex="1">
+        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="Verifica resposta &quot;Deseja continuar&quot;" vertex="1">
           <mxGeometry height="80" width="80" x="100" y="840" as="geometry" />
         </mxCell>
         <mxCell id="_Fd-BaGg3FTUe1XzLkGT-22" edge="1" parent="1" source="_Fd-BaGg3FTUe1XzLkGT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="XQxMHSmqgJ_7HpdLOQ4S-27">
@@ -156,7 +157,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Se quantidade de vidas 0" vertex="1">
+        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-43" connectable="0" parent="_Fd-BaGg3FTUe1XzLkGT-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="true" vertex="1">
+          <mxGeometry relative="1" x="-0.8187" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="Se quantidade de vidas 0" vertex="1">
           <mxGeometry height="80" width="80" x="490" y="170" as="geometry" />
         </mxCell>
         <mxCell id="_Fd-BaGg3FTUe1XzLkGT-29" edge="1" parent="1" source="_Fd-BaGg3FTUe1XzLkGT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_Fd-BaGg3FTUe1XzLkGT-16" value="">
@@ -180,6 +186,9 @@
         </mxCell>
         <mxCell id="_Fd-BaGg3FTUe1XzLkGT-34" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Resposta &quot;Deseja tentar novamente&quot;" vertex="1">
           <mxGeometry height="60" width="120" x="550" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_Fd-BaGg3FTUe1XzLkGT-44" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Adiciona pontos" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
