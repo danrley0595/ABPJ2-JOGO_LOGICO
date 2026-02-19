@@ -28,6 +28,8 @@ O sistema utiliza:
 - while -> Controlar número de tentativas
 - if / else -> Verificar respostas
 - break -> Encerrar o jogo quando necessário
+- Exit() -> Finalizar programa
+- match case -> Controle de fluxo
 - Listas paralelas para:
   - Perguntas
   - Alternativas
