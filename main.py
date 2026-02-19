@@ -38,7 +38,7 @@ lista_opcao_e = ["E) show()","E) let x = 10","E) char","E) <>","E) if: x > 5","E
 
 print("--- BEM-VINDO AO QUIZ ---")
 print("É um quiz sobre o conteudo de Python Básico onde possui 10 perguntas.")
-print("Regras:\n1 - Você possui 3 tentativas por pergunta.\n2 - Cada acerto vale 10 pontos. \n3 - Se as vidas acabarem, o jogo termina.\n")
+print("\nRegras:\n1 - Você possui 3 tentativas por pergunta.\n2 - Cada acerto vale 10 pontos. \n3 - Se as vidas acabarem, o jogo termina.\n")
 
 #Laço de repetição para apresentar as perguntas e opções de respostas 
 #Len para obter a quantidade de perguntas e o range para percorrer a lista, onde i inicia com 0
@@ -49,12 +49,18 @@ for i in range(len(lista_perguntas)):
     tentativas = 0
     #Inicia laço de repetição para validar a tentativa
     while tentativas < 3:
-        resposta = input("Informe a opção correta (A / B / C / D / E): ")
+        resposta = input("Informe a opção correta (A / B / C / D / E): ").upper()
 
         if resposta == lista_resposta[i]:
             pontos += 10
             print(f"\nResposta Correta! Você acumulou {pontos} pontos.\n")
-            break  #sai do while e vai para próxima pergunta
+            continuar = str(input("Deseja continuar jogando(S / N):").upper())
+            
+            match continuar:
+                case "S":
+                    break  #sai do while e vai para próxima pergunta
+                case _:
+                    exit() #caso seja diferente de S finaliza o programa
         else:
             tentativas += 1
             print(f"\nResposta errada! Tentativa {tentativas} de 3.")
