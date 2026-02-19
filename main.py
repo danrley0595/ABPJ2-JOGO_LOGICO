@@ -1,44 +1,67 @@
-# Declaração variaveis perguntas
-p1 = str("Pergunta 1")
-p2 = str("Pergunta 2")
-p3 = str("Pergunta 3")
-p4 = str("Pergunta 4")
-p5 = str("Pergunta 5")
-p6 = str("Pergunta 6")
-p7 = str("Pergunta 7")
-p8 = str("Pergunta 8")
-p9 = str("Pergunta 9")
-p10 = str("Pergunta 10")
 
-# variavel para acumular pontos
+#variável para guardar as perguntas
+p1 = str("1 - Qual função é usada para exibir algo na tela em Python?")
+p2 = str("2 - Qual é a forma correta de criar uma variável?")
+p3 = str("3 - Qual tipo de dado armazena texto?")
+p4 = str("4 - Qual operador compara igualdade?")
+p5 = str("5 - Como iniciamos uma estrutura condicional?")
+p6 = str("6 - Qual estrutura é usada para repetição?")
+p7 = str("7 - Qual estrutura armazena múltiplos valores ordenados?")
+p8 = str("8 - Como definimos uma função?")
+p9 = str("9 - Qual valor booleano representa verdadeiro?")
+p10 = str("10 - Qual o resultado de: 5 + 2?")
+
+# variável para acumular pontos
 pontos = int(0)
 
-# Criação da lista de perguntas e respostas
+# Lista de perguntas
 lista_perguntas = [p1,p2,p3,p4,p5,p6,p7,p8,p9,p10]
-lista_resposta = ["A","B","C","D","E","A","B","C","D","E"]
-lista_opçao_a = ["A","A","A","A","A","A","A","A","A","A"]
-lista_opçao_b = ["B","B","B","B","B","B","B","B","B","B"]
-lista_opçao_c = ["C","C","C","C","C","C","C","C","C","C"]
-lista_opçao_d = ["D","D","D","D","D","D","D","D","D","D"]
-lista_opçao_e = ["E","E","E","E","E","E","E","E","E","F"]
 
-# Laço de repetição para apresentar as perguntas e opções de respostas 
-i = 0
-for p in lista_perguntas:
+# Lista de respostas corretas
+lista_resposta = ["C","D","C","B","B","B","C","B","C","C"]
 
-    print(f"{p}\n {lista_opçao_a[i]}\n {lista_opçao_b[i]}\n {lista_opçao_c[i]}\n {lista_opçao_d[i]}\n {lista_opçao_e[i]}")
-    resposta = str(input("Informe a opção CORRETA(informe a letra maiúsculo):"))
-    if resposta == lista_resposta[i]:
-        pontos += 10
-        print(f"\nResposta Correta!Você acumulou {pontos}.")
-        resp_cont = str(input("Deseja continuar(s/n)?"))
-        if resp_cont == "n":
-            break;
+# Opções A
+lista_opcao_a = ["A) echo()","A) int x = 10","A) int","A) =","A) if (x > 5)","A) repeat","A) dict","A) function minhaFuncao()","A) true","A) 52"]
+
+# Opções B
+lista_opcao_b = [
+"B) console.log()","B) var x = 10","B) float","B) ==","B) if x > 5:","B) for","B) tuple","B) func minhaFuncao()","B) TRUE","B) 3"]
+
+# Opções C
+lista_opcao_c = ["C) print()","C) str","C) str","C) ===","C) if x > 5 then","C) loop","C) list","C) def minhaFuncao():","C) True","C) 7"]
+
+# Opções D
+lista_opcao_d = ["D) write()","D) x = 10","D) bool","D) !=","D) if x > 5 {}","D) foreach","D) set","D) create minhaFuncao()","D) 1","D) 10"]
+
+# Opções E
+lista_opcao_e = ["E) show()","E) let x = 10","E) char","E) <>","E) if: x > 5","E) iterate","E) str","E) method minhaFuncao()","E) yes","E) Erro"]
+
+print("--- BEM-VINDO AO QUIZ ---")
+print("É um quiz de perguntas sobre o conteudo de Python Básico.")
+print("Regras:\n1 - Você possui 3 tentativas por pergunta.\n2 - Cada acerto vale 10 pontos. \n3 - Se as vidas acabarem, o jogo termina.\n")
+
+#Laço de repetição para apresentar as perguntas e opções de respostas 
+#Len para obter a quantidade de perguntas e o range para percorrer a lista, onde i inicia com 0
+for i in range(len(lista_perguntas)):
+
+    print(f"{lista_perguntas[i]}\n {lista_opcao_a[i]}\n {lista_opcao_b[i]}\n {lista_opcao_c[i]}\n {lista_opcao_d[i]}\n {lista_opcao_e[i]}")
+
+    tentativas = 0
+    #Inicia laço de repetição para validar a tentativa
+    while tentativas < 3:
+        resposta = input("Informe a opção correta (A / B / C / D / E): ")
+
+        if resposta == lista_resposta[i]:
+            pontos += 10
+            print(f"\nResposta Correta! Você acumulou {pontos} pontos.\n")
+            break  #sai do while e vai para próxima pergunta
         else:
-            i += 1
-            
-    else:
-        print("\nQue pena você errou :( , pontos acumulados: {pontos} ")
-        resp_tentar = str(input("Deseja tentar novamente(s/n)?"))
-        if resp_tentar == "n":
-            break;
+            tentativas += 1
+            print(f"\nResposta errada! Tentativa {tentativas} de 3.")
+
+    #Se tentativas chegar a 3 finaliza o programa
+    if tentativas == 3:
+        print(f"\nVocê errou 3 vezes.")
+        break
+
+print(f"\nFim de jogo!\nPontuação final: {pontos}")
