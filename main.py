@@ -37,7 +37,7 @@ lista_opcao_d = ["D) write()","D) x = 10","D) bool","D) !=","D) if x > 5 {}","D)
 lista_opcao_e = ["E) show()","E) let x = 10","E) char","E) <>","E) if: x > 5","E) iterate","E) str","E) method minhaFuncao()","E) yes","E) Erro"]
 
 print("--- BEM-VINDO AO QUIZ ---")
-print("É um quiz de perguntas sobre o conteudo de Python Básico.")
+print("É um quiz sobre o conteudo de Python Básico onde possui 10 perguntas.")
 print("Regras:\n1 - Você possui 3 tentativas por pergunta.\n2 - Cada acerto vale 10 pontos. \n3 - Se as vidas acabarem, o jogo termina.\n")
 
 #Laço de repetição para apresentar as perguntas e opções de respostas 
