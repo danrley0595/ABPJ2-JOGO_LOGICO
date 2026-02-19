@@ -8,7 +8,7 @@ Este projeto ABPJ2 é um programa Quiz de perguntas sobre Python básico desenvo
 - 5 alternativas por pergunta
 - Sistema de pontuação
 - Controle de tentativas (máximo 3 por pergunta)
-- Encerramento automático após 3 erros
+- Encerramento após 3 erros
 - Opção de continuar ou finalizar
 
 ## Regras do Jogo
